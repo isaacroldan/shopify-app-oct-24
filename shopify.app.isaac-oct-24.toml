@@ -3,12 +3,13 @@
 client_id = "22b7cbf1b4aa1acd1bdd002e7a8b4b4a"
 app_id = "gid://shopify/App/174242430977"
 organization_id = "109300"
-application_url = "https://excluded-careful-mailto-shared.trycloudflare.com"
+application_url = "https://tue-boolean-idea-pension.trycloudflare.com"
 embedded = false
 name = "isaac-oct-24"
 
 [build]
-dev_store_url = "dev-store-4444-advanced.myshopify.com"
+automatically_update_urls_on_dev = true
+dev_store_url = "https://dev-store-4444-advanced.myshopify.com"
 include_config_on_deploy = true
 
 [webhooks]
@@ -22,5 +23,32 @@ scopes = ""
 redirect_urls = [
   "https://excluded-careful-mailto-shared.trycloudflare.com/auth/callback",
   "https://excluded-careful-mailto-shared.trycloudflare.com/auth/shopify/callback",
-  "https://excluded-careful-mailto-shared.trycloudflare.com/api/auth/callback"
+  "https://excluded-careful-mailto-shared.trycloudflare.com/api/auth/callback",
+  "https://shops-derived-newsletter-promised.trycloudflare.com/auth/callback",
+  "https://shops-derived-newsletter-promised.trycloudflare.com/auth/shopify/callback",
+  "https://shops-derived-newsletter-promised.trycloudflare.com/api/auth/callback",
+  "https://nitrogen-packets-celtic-portsmouth.trycloudflare.com/auth/callback",
+  "https://nitrogen-packets-celtic-portsmouth.trycloudflare.com/auth/shopify/callback",
+  "https://nitrogen-packets-celtic-portsmouth.trycloudflare.com/api/auth/callback",
+  "https://title-instrumental-sponsored-ky.trycloudflare.com/auth/callback",
+  "https://title-instrumental-sponsored-ky.trycloudflare.com/auth/shopify/callback",
+  "https://title-instrumental-sponsored-ky.trycloudflare.com/api/auth/callback",
+  "https://tm-weather-candle-cio.trycloudflare.com/auth/callback",
+  "https://tm-weather-candle-cio.trycloudflare.com/auth/shopify/callback",
+  "https://tm-weather-candle-cio.trycloudflare.com/api/auth/callback",
+  "https://they-containing-itself-oldest.trycloudflare.com/auth/callback",
+  "https://they-containing-itself-oldest.trycloudflare.com/auth/shopify/callback",
+  "https://they-containing-itself-oldest.trycloudflare.com/api/auth/callback",
+  "https://disciplines-floyd-matches-intl.trycloudflare.com/auth/callback",
+  "https://disciplines-floyd-matches-intl.trycloudflare.com/auth/shopify/callback",
+  "https://disciplines-floyd-matches-intl.trycloudflare.com/api/auth/callback",
+  "https://frequencies-entry-men-chef.trycloudflare.com/auth/callback",
+  "https://frequencies-entry-men-chef.trycloudflare.com/auth/shopify/callback",
+  "https://frequencies-entry-men-chef.trycloudflare.com/api/auth/callback",
+  "https://oriented-rob-hydrogen-inspector.trycloudflare.com/auth/callback",
+  "https://oriented-rob-hydrogen-inspector.trycloudflare.com/auth/shopify/callback",
+  "https://oriented-rob-hydrogen-inspector.trycloudflare.com/api/auth/callback",
+  "https://tue-boolean-idea-pension.trycloudflare.com/auth/callback",
+  "https://tue-boolean-idea-pension.trycloudflare.com/auth/shopify/callback",
+  "https://tue-boolean-idea-pension.trycloudflare.com/api/auth/callback"
 ]

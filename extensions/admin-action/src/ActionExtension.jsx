@@ -37,7 +37,7 @@ function App() {
       });
 
       if (!res.ok) {
-        console.error('Network error');
+        console.error('Network ersror');
       }
 
       const productData = await res.json();

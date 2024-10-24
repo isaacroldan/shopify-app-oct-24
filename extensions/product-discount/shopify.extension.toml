@@ -4,6 +4,7 @@ api_version = "2024-10"
 name = "t:name"
 handle = "product-discount"
 type = "function"
+uid = "product-discount"
 
 description = "t:description"
 
