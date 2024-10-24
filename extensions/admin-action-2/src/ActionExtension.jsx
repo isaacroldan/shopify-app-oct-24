@@ -50,7 +50,7 @@ function App() {
       primaryAction={
         <Button
           onPress={() => {
-            console.log('change');
+            console.log('saving');
             close();
           }}
         >
