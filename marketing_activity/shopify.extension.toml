@@ -1,0 +1,27 @@
+[[extensions]]
+type = "marketing_activity"
+name = "marketing_activity"
+handle = "marketing_activity"
+uid = "random_uod"
+title = "Your title"
+description = "Your description"
+api_path = "/replace_me"
+tactic = "ad"
+marketing_channel = "social"
+referring_domain = "faceabaook.com"
+is_automation = false
+
+
+[[extensions.preview_data.types]]
+label = "Desktop"
+value = "desktop"
+
+[[extensions.preview_data.types]]
+label = "Mobile"
+value = "mobile"
+
+[[extensions.fields]]
+name = "example_field"
+heading = "Example Tistless"
+body = "Example body"
+ui_type = "paragraph"

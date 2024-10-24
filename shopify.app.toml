@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "7a8003949177ca8bdd6def0f410ae9ad"
+name = "oct-7-new"
+handle = "oct-7-new"
+application_url = "https://brain-programmers-capitol-regulatory.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "isaac-may-2023.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_own_subscription_contracts"
+
+[auth]
+redirect_urls = [
+  "https://brain-programmers-capitol-regulatory.trycloudflare.com/auth/callback",
+  "https://brain-programmers-capitol-regulatory.trycloudflare.com/auth/shopify/callback",
+  "https://brain-programmers-capitol-regulatory.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-10"
+
+[pos]
+embedded = false

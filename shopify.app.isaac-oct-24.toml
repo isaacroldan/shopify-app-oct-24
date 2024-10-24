@@ -1,0 +1,26 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "22b7cbf1b4aa1acd1bdd002e7a8b4b4a"
+app_id = "gid://shopify/App/174242430977"
+organization_id = "109300"
+application_url = "https://excluded-careful-mailto-shared.trycloudflare.com"
+embedded = false
+name = "isaac-oct-24"
+
+[build]
+dev_store_url = "dev-store-4444-advanced.myshopify.com"
+include_config_on_deploy = true
+
+[webhooks]
+api_version = "2024-01"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://excluded-careful-mailto-shared.trycloudflare.com/auth/callback",
+  "https://excluded-careful-mailto-shared.trycloudflare.com/auth/shopify/callback",
+  "https://excluded-careful-mailto-shared.trycloudflare.com/api/auth/callback"
+]

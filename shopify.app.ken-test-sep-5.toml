@@ -1,0 +1,34 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "57221697a197d33a19a2a8a61f67e08d"
+app_id = "gid://shopify/App/115680149505"
+organization_id = "109300"
+name = "ken-test-sep-5"
+application_url = "https://proper-triple-isbn-disturbed.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "https://dev-store-3333.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_analytics,read_apps"
+
+[auth]
+redirect_urls = [
+  "https://proper-triple-isbn-disturbed.trycloudflare.com/auth/callback",
+  "https://proper-triple-isbn-disturbed.trycloudflare.com/auth/shopify/callback",
+  "https://proper-triple-isbn-disturbed.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[app_proxy]
+url = "https://proper-triple-isbn-disturbed.trycloudflare.com/test"
+subpath = "somewhere"
+prefix = "apps"
+
+[pos]
+embedded = true
